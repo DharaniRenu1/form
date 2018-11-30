@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div  id="title">
+                Survey Form
+        </div>
+        <div id="description">
+               <p>Let us know how we can improve freeCodeCamp</p> 
+                <form id="survey-form">
+                    <div class="rowTab"> 
+                    <label>Name:</label>
+                    <div class="rightTab">
+                            <input id="input-field" type="text" required placeholder="Enter your name" >
+                    </div>
+                   
+                    </div>
+                    <div class="rowTab"> 
+                    <label>Email:</label>
+                    <div class="rightTab">
+                    <input id="input-field" type="email" required placeholder="Enter your email" >
+                    </div>
+                    </div>
+                    <div class="rowTab"> 
+                    <label>Number:</label>
+                    <div class="rightTab">
+                    <input id="input-field" type="number"  required placeholder="Age" ></div>
+                    </div>
+                     <div>
+                    <label>Which option best describes your current role?</label>
+                    <div class="rightTab">
+                    <select>
+                         <option disabled value>Select an option</option>
+                        <option>Student</option>
+                        <option>Full time job</option>
+                        <option>Full time leaner</option>
+                        <option>Prefer not to say</option>
+                        <option>Other</option>
+                    </select>
+                    </div>
+                    </div>
+                    <div>
+                            <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+                            <div class="rightTab">
+                            <ul class="radio1" style="list-style: none;" >
+                                <li><input id="radio" type="radio"  required> Definitely</li>
+                                <li><input id="radio" type="radio"  required> Maybe</li>
+                                <li><input id="radio" type="radio"  required> Not sure</li>
+                            </ul>
+                            </div>
+                    </div>
+                    <div>
+                            <label>What do you like most in FCC:</label>
+                            <div class="rightTab">
+                            <select> 
+                                 <option disabled selected value>Select an option</option>
+                                <option>Student</option>
+                                <option>Full time job</option>
+                                <option>Full time leaner</option>
+                                <option>Prefer not to say</option>
+                                <option>Other</option>
+                            </select>
+                            </div>
+                     </div>
+                     <div >
+                            <label>Things that should be improved in the future
+                                <br>     (Check all that apply):
+                            </label>
+                              
+                                   <div class="rightTab">
+                            <ul class="check1" style="list-style: none;">
+                                <li><input id="radio" type="checkbox"  required> Definitely</li>
+                                <li><input id="radio" type="checkbox"  required> Maybe</li>
+                                <li><input id="radio" type="checkbox"  required> Not sure</li>
+                            </ul>
+                            </div>
+                    </div>
+                    <div>
+                        <label>Any Comments or Suggestions?</label>
+                        <div class="rightTab">
+                                <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+                        </div>
+                       
+                    </div>
+                  
+                        <input type="submit" value="submit">
+                    
+                </form>
+        </div>
+    </body>
+</html>
