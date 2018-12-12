@@ -1,0 +1,17 @@
+html,body{
+
+}
+h1{
+    font-size:12em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 250px auto;
+    position: relative;
+    background: url(ok.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}

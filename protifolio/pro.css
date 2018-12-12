@@ -1,0 +1,87 @@
+html,body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav ul{
+    text-align: right;
+    position:fixed;
+    width:100%;
+    background-color: #e0ebe8;
+   
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 55px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: green;
+}
+.intro{
+    top: 0;
+    min-height: 55vh;
+    padding-top:45vh;
+    background: #e0ebe8;
+}
+.intro p{
+    color: green;
+}
+.work-header{
+    color: #008080;
+    margin: 50px;
+    font-weight: normal;
+}
+.work {
+    min-height: 55vh;
+
+  padding-top: 60px;
+  margin-top: -60px;
+}
+  
+.project{
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid skyblue;
+    height: 220px;
+    width: 280px;
+    margin:40px 100px;
+    
+}
+.project .project-pic
+{
+    width:100%;
+    height:187px;
+}
+.service{
+    padding: 160px ;
+    background-color: aquamarine
+}
+.header {
+    padding: 160px 0 ;
+  }
+  
+.contact-details{
+    display: inline-block;
+    width:100px;
+    height:100px;
+    margin: 10px 35px;
+    background-color: pink;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 100px;
+    border-radius: 100%;
+
+
+}
+.footer{
+    padding: 160px ;
+}

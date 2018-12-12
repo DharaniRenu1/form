@@ -1,0 +1,33 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10em;
+    text-transform: uppercase;
+    margin: 210px auto;
+    text-align: center;
+    
+  
+    background: url(images.jpeg);
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin:0;
+    padding: 0;
+    animation: animate 15s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: left 0px top 80px;
+    }
+    40%
+    {
+         background-position: left 800px top -50px;
+    
+    }
+}
+body{
+    left:50%;
+    top:50%;
+  background: black;
+   
+   
+}
